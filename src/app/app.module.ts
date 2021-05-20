@@ -4,21 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Project1Component } from './project1/project1.component';
-<<<<<<< HEAD
+
 import { WorkComponent } from './components/work/work.component';
-=======
 import { ChatchaicomponentComponent } from './chatchaicomponent/chatchaicomponent.component';
->>>>>>> fileswork
+import { JBComponent } from './j-b/j-b.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Project1Component,
-<<<<<<< HEAD
-    WorkComponent
-=======
-    ChatchaicomponentComponent
->>>>>>> fileswork
+    ChatchaicomponentComponent,
+    WorkComponent,
+    JBComponent
   ],
   imports: [
     BrowserModule,
@@ -27,4 +24,5 @@ import { ChatchaicomponentComponent } from './chatchaicomponent/chatchaicomponen
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
