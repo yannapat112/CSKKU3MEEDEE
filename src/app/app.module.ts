@@ -8,6 +8,7 @@ import { Project1Component } from './project1/project1.component';
 import { WorkComponent } from './components/work/work.component';
 import { ChatchaicomponentComponent } from './chatchaicomponent/chatchaicomponent.component';
 import { JBComponent } from './j-b/j-b.component';
+import { Project2Component } from './project2/project2.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { JBComponent } from './j-b/j-b.component';
     Project1Component,
     ChatchaicomponentComponent,
     WorkComponent,
-    JBComponent
+    JBComponent,
+    Project2Component
   ],
   imports: [
     BrowserModule,
